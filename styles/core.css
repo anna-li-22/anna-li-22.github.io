@@ -2,36 +2,38 @@ html{
   background-color: rgb(135, 150, 134);
 }
 nav{
+  font-family:monospace;
   font-size: large;
   background-color:#ff7a59;
-  padding:5px,5px,5px,10px;
-  margin-bottom:-15px;
-  margin-right: 1400px;
-  text-align: center;
+  margin:auto;
+  width:30%;
+  padding: 10px; 
+   border: 1px solid #ff7a59;
+   
 }
+.center,h1,h2{
+  font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 30%;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    }
 h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size:36px;
-  color:white;
 }
-h2{font-family: Arial, Helvetica, sans-serif;
-  font-size:24px;
-  border:solid 5px;
-  padding:3px;
-  text-align:center;
+h2{
+  font-size: 12px;
+  text-align:left;
   color:white;
 }
 p, li{
 font-size: small;
 color:#2D3E50;
-margin-left:300px;
-margin-right:300px;
-padding-left:50px;
-padding-right: 50px;
+margin:auto;
 padding-top: auto;
 padding-bottom:auto;
-justify-content:center;
-text-align: center;
+text-align: justify;
 font-family: sans-serif;
 background-color:rgb(246, 252, 192);}
 
