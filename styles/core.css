@@ -21,16 +21,15 @@ h2{font-family: Arial, Helvetica, sans-serif;
   text-align:center;
   color:white;
 }
-p{
+p, li{
 font-size: small;
 color:#2D3E50;
 margin-left:300px;
 margin-right:300px;
-border-radius: 50px;
 padding-left:50px;
 padding-right: 50px;
-padding-top: 10px;
-padding-bottom:30px;
+padding-top: auto;
+padding-bottom:auto;
 justify-content:center;
 text-align: center;
 font-family: sans-serif;
