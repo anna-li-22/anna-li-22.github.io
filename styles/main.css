@@ -1,13 +1,18 @@
 
-@media only screen and (min-width: 768px)
-{
-
+@media only screen and (min-width: 768px){body{
+  background-color: blueviolet;
+}
 }
 @media only screen and (min-width: 320px)
-{
+{body{
+  background-color: rgb(226, 43, 43);
+}
 
 }
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px){body{
+  background-color: rgb(250, 255, 241);
+  h2{color:rgb(127,255,50);}
+}
   
 }
 .hero-image{
