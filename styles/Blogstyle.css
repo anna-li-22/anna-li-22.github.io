@@ -30,6 +30,9 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size:36px;
 }
+meter {
+  width: 200px;
+}
 .image{width: 50%;
 margin:auto;
 height:30%;}
