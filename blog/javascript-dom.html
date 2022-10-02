@@ -85,8 +85,8 @@
 
 
   <h3>loop:</h3>
-<p>An array is a special variable, which can hold more than one value:<br>
-  instead of:<br>
+<p>Loops can execute a block of code a number of times. <br>
+  including: for loop, do/while loop, for…in, for …of loop<br>
 <p class="code_two">
   text += cucumber[0] + "<br>";
   
@@ -111,14 +111,48 @@
 <!-- 3 -->
 <h1>Explain control flow and loops using an example process from everyday life</h1>
 
-<p>Control flow in JavaScript is how your computer runs code from top to bottom. It starts from the first line and ends at the last line, unless it hits any statement that changes the control flow of the program such as loops, conditionals, or functions. 
-<p class="code">
- It's like cooking rice. Start from decision of "rice for dinner", and we decide what ingredients we need(brownrice, jasmine rice, coconut rice), and then decide how we cook(ricecooker, pot) it and then what other ingredients needed(water,slat, surger)
-and by making the loop of rice cooking.
-Imagine we have 6 tons of rice, so we start to loop where all the rice will be cooked with our decisions till no rice is left in the pile.
-</p>
-</p>
+<p>JavaScript is executed how your computer runs code from top to bottom., line by line. But Control flow allow our program to make decisions about what code is executed and when it is executed. <br>
+   "conditional statement" to checks to see if a certain condition is either true or false**<br>
 
+**If condition is true then run code A, if it's false then run code B.**<br>
+
+**while loops allow us to perform repetitive tasks with less code.** <br>
+
+
+<p class="code">
+From my understanding, it is like when you making decision about dinner.
+
+From the top, when think about if you are hungry, you facing two answer. When it is yes, you went next question: what to eat. when the answers is no, you stop thinking about food. 
+Again, think about what to eat will have many answer to the question and each answer you decided  you move to the next path till you processed to actually having the food or not(true or false).
+That path of thinking is like control flow. when you tired of making that decision over and over again, you can add an conditional(what you like and what you prefer on a raining day) so when it is raining you answer is soup. and it's been raining 365 days, you can loop the same decision making path and get the same outcome.(soup!)
+</p>
+</p>
+<!-- 4 -->
+<h1>Explain the difference between accessing data from arrays and objects. </h1>
+
+<p> 
+  As previously explained what object and array is.
+
+The main difference is : an array is a special type of variable where it represents a list of things while the objects represent a ‘thing’, with each of the values state the <strong>properties</strong>of ‘the thing’. <br>
+
+<strong> object:</strong><br>
+<p class="code">
+var object ={key: “value”}
+</p>
+  Properties in objects can be accessed, added, changed, and removed by using either **dot**
+   or **bracket** notation. object.key or object[’key’] all return the value.<br>
+  <strong>array: </strong> <br>
+   Arrays use zero-based indexing, so the first item in an array has an index of 0, the second item an index of 1, and so on.*<br>
+   <p class =code> 
+    const vegetables = ["broccoli", "lettuce", "cucumber"];
+   vegetables[2]; // returns 'cucumber’
+   <p>
+
+ <br>
+
+
+
+</p>
 <!-- 2 -->
 <h1> Explain what functions are and why they are helpful</h1>
 
@@ -128,7 +162,7 @@ A function is like a reusable recipe that the same set of actions over and over 
 
 For example, think the function as making the sandwich.
 
-The  ingredients are  **parameters**. when we have all the ingredients needed, we run the function and **return** the sandwich.
+The  ingredients are  <strong>parameters</strong>. when we have all the ingredients needed, we run the function and <strong>return</strong> the sandwich.
 <p class="code">
 function makeSandwich(meat, vegetable, bread)<br>
  {<br>
